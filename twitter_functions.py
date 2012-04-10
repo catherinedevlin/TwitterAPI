@@ -1,7 +1,7 @@
 import twitter
 import util
 
-INDIANAPOLIS_WOEID = 12777679
+INDIANAPOLIS_WOEID = 2427032
 
 def search(searchTerm):
     """
