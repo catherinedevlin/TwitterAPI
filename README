@@ -1,0 +1,4 @@
+The ``twitter`` module used is *not* the one from PyPI, but python-twitter:
+http://code.google.com/p/python-twitter/
+
+
