@@ -1,7 +1,7 @@
 import twitter
 import util
 
-BOSTON_WOEID = 2367105
+INDIANAPOLIS_WOEID = 12777679
 
 def search(searchTerm):
     """
@@ -26,7 +26,7 @@ def trendingTopics():
     """
     api = twitter.Api()
 
-    trending_topics = api.GetTrendsWoeid(BOSTON_WOEID)
+    trending_topics = api.GetTrendsWoeid(INDIANAPOLIS_WOEID)
     for topic in trending_topics:
         util.safe_print(topic.name)
 
